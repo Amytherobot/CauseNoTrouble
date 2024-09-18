@@ -22,6 +22,7 @@ Juarez
 Craig
 Fields
 Beard
+Mustache
 Copeland
 Wood
 Greer
@@ -73,6 +74,7 @@ Osborn
 Mcmillan
 Casey
 Bush
+Obama
 Stephens
 Daniel
 Conrad
@@ -83,10 +85,12 @@ Figueroa
 Higgins
 Steele
 English
+British
 Clements
 Ballard
 Stevenson
 Shields
+Swords
 Cain
 Santos
 Bowers
@@ -104,6 +108,7 @@ Hampton
 Mendoza
 Meadows
 Hull
+Hole
 Petersen
 Macdonald
 Fritz
@@ -126,11 +131,13 @@ Weber
 Ritter
 Robinson
 Hood
+Hoodie
 Harrington
 Barrett
 Adkins
 Best
 Singleton
+Ratio
 Fletcher
 Miller
 Savage
@@ -153,6 +160,7 @@ Becker
 Frye
 Tate
 Wagner
+Avocado
 Howell
 Harrison
 Schroeder
@@ -171,6 +179,7 @@ Sellers
 Hammond
 Good
 Fox
+Badd
 Richard
 Barry
 Choi
@@ -198,3 +207,6 @@ Bond
 Prince
 Blanchard
 Mason
+Hart
+Dixon
+Universe

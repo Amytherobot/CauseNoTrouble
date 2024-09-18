@@ -4,17 +4,8 @@ from time import sleep
 from colorama import Fore, init
 init()
 
-
-
-#every time you ask them something, timer goes up
-#But what does the timer represent???
-#maybe, at least 5 people on the list need to get into the building, otherwise there's a penalty
-#not feasible bc random generation
-
 #Maybe if you take too long they start getting mad?
-#And then you have to deploy security on them and kill them. Costing you points
-
-#
+#Each class has a patience meter
 
 def firstRun():
 
@@ -41,6 +32,7 @@ def firstRun():
     input("The safety of our company relies on you. Please do your best.")
 
 def showStats(stats,empKilled,empRefused,empIn,spyKilled,spyRefused,spyIn,CivKilled,CivRefused,badCivIn,goodCivIn,AltsKilled,AltsRefused,AltsIn):
+    #issue with stats screen on the success gamestate?
     print(f"{Fore.CYAN}People met:") #< -- blue
     for i in stats:
         print(i) #< -- blue
@@ -889,7 +881,7 @@ def main():
                 stats.append(state)
             elif "killed" in state:
                 print()
-                print("{Fore.BLUE}Alternate successfully terminated{Fore.WHITE}") #< -- blue
+                print(f"{Fore.BLUE}Alternate successfully terminated{Fore.WHITE}") #< -- blue
                 AltsKilled += 1
                 stats.append(state)
         
